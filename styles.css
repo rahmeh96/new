@@ -1,0 +1,109 @@
+body{
+font-family: 'Epilogue', sans-serif;
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+nav div {
+ float: right;
+   gap: 20px;
+    margin: 20px;
+    margin-right: 80px ;
+    align-items: center;
+}
+nav img{
+    width: fit-content;
+    margin-right: 10px;
+}
+.Home {
+    color: #D1884F;
+}
+section{
+text-align: center;
+display: flex;
+position: absolute;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 10px;
+gap: 200px;
+left: 50%;
+width: 75%;
+}
+article{
+    width: 70%;
+   
+}
+.centredImage {
+    
+    width: 30%;
+    box-shadow: -25px 11px 1px -10px #3BBADB;
+    border-radius:0px 0px 0px 50%;
+}
+
+.coloredPara{
+    color: #3BBADB;
+    text-align: left;
+ }
+ section h1{
+    color: #008AAA;
+    font-size: 30px;
+    text-align: left;
+
+ }
+ .black{
+    text-align: left;
+ }
+ span {
+    color: #D1884F;
+ }
+ .blue{
+    color: #3BBADB;
+ }
+ .white{
+    color: white;
+    background-color:#008AAA;
+    border: none;
+    color: white;
+  
+ }
+ .borderBlue{
+    background-color:white;
+    color:#008AAA;
+    border-color: #008AAA;
+    border-width: 1px;
+ }
+ button{
+    border-radius: 8px;
+    padding: 6px 20px;
+    margin: 20px;
+ }
+ @media  screen and (max-width:968px) {
+    section{
+      margin: 10%;
+    display: block;   
+    
+    }
+    .centredImage{
+        text-align: center;
+        width: 70%;
+        margin: 2px;
+    }
+ }
+ @media screen and (max-width: 600px) {
+   
+    nav div{
+        display: inline;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        gap: 2px;
+        
+    }
+    section{
+        display: block;
+        width: 100%;
+        height: 30%;
+        
+    }
+   
+ }
